@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+/__pycache__
+data/
+.idea/
+data/ants_and_bees/train/ants/
+data/ants_and_bees/train/bees/
+data/ants_and_bees/val/ants/
+data/ants_and_bees/val/bees/
