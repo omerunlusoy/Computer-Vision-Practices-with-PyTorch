@@ -58,7 +58,6 @@ import shutil
 
 # Dropout layer: randomly turns off some neurons to reduce overfitting, can be replaced between any two layers but better if it is placed at high number of parameters
 
-
 ########################################################################################################################
 
 input_channel_num = 1                                                                               # gray scale
@@ -120,7 +119,6 @@ def show_images(images, labels, predictions=None):
                          color=("green" if predictions[index] == labels[index] else "red"))
             # plt.savefig('testset.jpg', dpi=500, bbox_inches='tight')
 
-
     plt.show()
 
 
@@ -141,7 +139,6 @@ def get_internet_image(transform):
 
 
 def save_model(model):
-
     # hash every variable that matters to be sure that the saved model is the exact same
     hashed_vars = "conv_model_" + str(hash((input_channel_num, output_channel1_num, output_channel2_num, kernel_size, stride_length, image_size, fc1_output_size,
                             class_num, pooling_kernel_size, dropout_rate, batch_size, learning_rate, epochs, device)))
@@ -187,7 +184,6 @@ class LeNet(nn.Module):
         if init_weight_name is not None:
             self.initialize_initial_weights(init_weight_name)
 
-
     def initialize_initial_weights(self, init_weight_name):
         if init_weight_name.lower() == 'xavier_normal':
             nn_init = nn.init.xavier_normal_
@@ -231,7 +227,7 @@ class LeNet(nn.Module):
         plt.plot(range(epochs), corrects, label="training accuracy")
         plt.plot(range(epochs), validation_corrects, label="validation accuracy")
         plt.xlabel('epoch')
-        plt.ylabel('Loss')
+        plt.ylabel('Accuracy')
         plt.legend()
         plt.grid(color='gray', linestyle='-', linewidth=0.2)
         # plt.savefig('Epoch vs Corrects.jpg', dpi=500, bbox_inches='tight')
@@ -295,7 +291,6 @@ def train_network(model_conv, training_loader, criterion, optimizer):
     validation_corrects = []
 
     for e in range(epochs):
-
         running_loss = 0.0
         running_corrects = 0.0
         validation_running_loss = 0.0
@@ -308,6 +303,7 @@ def train_network(model_conv, training_loader, criterion, optimizer):
 
             # no need to flatten the images as we did in ANN since we are passing them to convolutional layers
             outputs = model_conv.forward(images)                                    # make a prediction (outputs of NN), (y_pred)
+            # print(outputs.shape, labels.shape)
             loss = criterion(outputs, labels)
 
             optimizer.zero_grad()                                                   # zeros (resets grad), (grads accumulates after each backward)
@@ -316,6 +312,7 @@ def train_network(model_conv, training_loader, criterion, optimizer):
 
             _, predicted_classes = torch.max(outputs, 1)                            # gets the maximum output value for each output
             num_correct_predictions = torch.sum(predicted_classes == labels.data)   # predicted_classes == labels.data is something like [1 0 1 1 1 0]
+            # print(outputs, predicted_classes, num_correct_predictions, labels)
             # num_correct_predictions = 4
             running_corrects += num_correct_predictions
             running_loss += loss.item()
@@ -403,7 +400,6 @@ _, predicted_classes = torch.max(outputs, 1)
 
 if print_testset:
     show_images(images, labels, predicted_classes)
-
 
 # internet image
 internet_image = get_internet_image(transform)

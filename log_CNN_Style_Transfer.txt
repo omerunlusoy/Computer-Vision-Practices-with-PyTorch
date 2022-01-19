@@ -1,0 +1,421 @@
+
+
+26/11/2021 22:50:42
+Content Image: data/Images/MonaLisa.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+26/11/2021 22:59:26
+Content Image: data/Images/MonaLisa.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+26/11/2021 23:04:25
+Content Image: data/Images/MonaLisa.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+26/11/2021 23:04:38
+Content Image: data/Images/MonaLisa.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+26/11/2021 23:06:36
+Content Image: data/Images/MonaLisa.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 13:39:28
+Content Image: data/Images/MonaLisa.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 13:56:42
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 13:57:17
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:03:23
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:03:41
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:04:51
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:05:38
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:05:54
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:09:44
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 14:10:32
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:11:06
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:11:26
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:11:50
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 14:13:31
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:18:17
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:18:34
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:19:18
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:20:29
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:22:42
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:25:37
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:28:03
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:28:12
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 14:29:29
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 14:30:20
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 14:34:03
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:34:05
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:34:19
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:36:07
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:36:53
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:42:09
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 14:42:41
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:43:20
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:43:23
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:44:29
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:49:19
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 14:49:33
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+
+
+27/11/2021 14:50:38
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:51:28
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:52:18
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:52:32
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+
+
+27/11/2021 14:52:37
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
+Training begins...
+
+
+27/11/2021 14:53:13
+Content Image: data/Images/HayleyWilliams.jpg
+Style Image: data/Images/StarryNight.jpg
+device: cpu, content_weight: 1, style_weight: 1000000.0, learning_rate: 0.003, steps: 2100, storage_limit: 300
+
+Content and Style images are retrieved.
+VGG 19 pre-trained model is created.
