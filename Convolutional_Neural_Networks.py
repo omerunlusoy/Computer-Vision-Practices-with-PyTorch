@@ -374,7 +374,10 @@ if print_initial_dataset:
 validation_dataset = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
 validation_loader = torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=batch_size, shuffle=False)   # no need to shuffle
 
+# get model
 model_conv = get_model()
+
+# train model
 if model_conv is None or train_anyway:
     model_conv = LeNet().to(device=device)
 

@@ -15,6 +15,9 @@ import os
 import shutil
 import time
 from datetime import timedelta
+from sklearn.metrics import confusion_matrix
+import seaborn as sn
+import pandas as pd
 
 
 """ CNN with Hyperparameter Tuning and Data Augmentation (CIFAR 10 Dataset) """
@@ -216,23 +219,45 @@ class CNN_HT_DA(nn.Module):
         # plt.savefig('Epoch vs Corrects.jpg', dpi=500, bbox_inches='tight')
         plt.show()
 
+    def confusion_matrix(self, y_pred, y_true, classes, title='', save_fig=False):
+        # Build confusion matrix
+
+        cf_matrix = confusion_matrix(y_true, y_pred)
+        cf_matrix = cf_matrix.astype('float') / cf_matrix.sum(axis=1)[:, np.newaxis]
+        df_cm = pd.DataFrame(cf_matrix / np.sum(cf_matrix) * 10, index=[i for i in classes], columns=[i for i in classes])
+        plt.figure(figsize=(12, 7))
+        plt.title(title)
+        sn.heatmap(df_cm, annot=True, cmap="YlGnBu")
+        if save_fig:
+            plt.savefig('output.png')
+        plt.show()
+
 
 ########################################################################################################################
 
-def train_network(model_conv, training_loader, validation_loader, criterion, optimizer):
+def train_network(model_conv, training_loader, validation_loader, criterion, optimizer, classes):
     # iterations
     losses = []
     corrects = []
     validation_losses = []
     validation_corrects = []
 
+    # each epoch
     for e in range(epochs):
         running_loss = 0.0
         running_corrects = 0.0
         validation_running_loss = 0.0
         validation_running_corrects = 0.0
 
+        # each batch
+        batch_num = 0
+        y_pred = []
+        y_true = []
         for images, labels in training_loader:  # for each epoch, iterate through each training batch (size of bach_size)
+
+            batch_num += 1
+
+            # print(batch_num, 'batch with', len(images))
 
             images = images.to(device)
             labels = labels.to(device)
@@ -251,6 +276,9 @@ def train_network(model_conv, training_loader, validation_loader, criterion, opt
             running_corrects += num_correct_predictions
             running_loss += loss.item()
 
+            y_pred.extend(predicted_classes)
+            y_true.extend(labels.data)
+
         epoch_loss = running_loss / len(training_loader)
         losses.append(epoch_loss)  # average loss of each epoch is added to the losses
 
@@ -258,6 +286,11 @@ def train_network(model_conv, training_loader, validation_loader, criterion, opt
         corrects.append(epoch_accuracy)
 
         print('epoch:', e + 1, 'loss: {:.4f}'.format(epoch_loss), 'accuracy: {:.4f}'.format(epoch_accuracy))
+
+        model_conv.confusion_matrix(y_pred, y_true, classes, title='epoch' + str(e+1))
+
+
+
 
         with torch.no_grad():
             for validation_images, validation_labels in validation_loader:
@@ -323,7 +356,7 @@ if model_conv is None or train_anyway:
 
     # train CNN
     start_training_time = time.time()
-    train_network(model_conv, training_loader, validation_loader, criterion, optimizer)
+    train_network(model_conv, training_loader, validation_loader, criterion, optimizer, training_dataset.classes)
     finish_training_time = time.time()
     print('Training Time: {:.4f}s', str(timedelta(seconds=finish_training_time - start_training_time)))
 

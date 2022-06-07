@@ -5,4 +5,7 @@
 /__pycache__
 data/
 .idea/
+saved_models_conv/
+saved_models_PINN/
+saved_models_conv_ht/
 saved_models_conv_tl/

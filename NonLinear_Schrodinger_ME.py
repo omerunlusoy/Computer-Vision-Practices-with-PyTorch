@@ -92,8 +92,6 @@ exact_mat_filename = 'Umut_Hoca/NLS.mat'
 log_filename = "log_PINN.txt"
 
 
-
-
 # Global Functions #####################################################################################################
 
 def get_log_str(sample_method):
@@ -563,6 +561,7 @@ class Trainer_Schrodinger:
 
                 # validation
                 loss_validation = self.validation()
+
                 validation_losses.append((epoch, loss_validation))
                 print('Valid Epoch', epoch + 1, '/', epochs_Adam + epochs_LBFGS, f', Loss: {loss_validation:4e}')
                 enter_log('Valid Epoch ' + str(epoch + 1) + '/' + str(epochs_Adam + epochs_LBFGS) + f', Loss: {loss_validation:4e}', get_log_str(self.sample_method), get_file_str(self.sample_method))
